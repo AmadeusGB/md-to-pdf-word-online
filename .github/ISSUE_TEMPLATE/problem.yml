@@ -1,0 +1,21 @@
+name: Report a problem / 报告问题
+description: Something did not work or the result looks wrong. 转换失败或结果不对。
+labels: [problem]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 发生了什么？
+      description: What you did, what you expected, and what you got. Error codes from the page help a lot.
+    validations: { required: true }
+  - type: input
+    id: page
+    attributes:
+      label: Page or tool / 页面或工具
+      placeholder: e.g. Markdown to Word, or MCP from Claude Code
+  - type: textarea
+    id: sample
+    attributes:
+      label: A small sample (optional) / 最小示例（可选）
+      description: Paste a few lines of Markdown that show the problem. Please don't post private documents.
+      render: markdown

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Use the website / 打开网站
+    url: https://md-to-pdf-word.amadeusgb123.workers.dev/
+    about: Convert Markdown, Word and LaTeX to PDF and Word.
+  - name: Private feedback / 私下反馈
+    url: https://md-to-pdf-word.amadeusgb123.workers.dev/faq/
+    about: Use “Feedback” on any page of the website if you prefer not to post publicly.

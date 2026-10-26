@@ -1,0 +1,10 @@
+name: Suggest an improvement / 提建议
+description: A feature, a format, a style or anything that would make it better. 新功能、新格式、新风格或任何改进。
+labels: [suggestion]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / 你的想法
+      description: What would you like, and what would you use it for?
+    validations: { required: true }
